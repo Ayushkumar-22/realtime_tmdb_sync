@@ -1,5 +1,5 @@
 from apscheduler.schedulers.blocking import BlockingScheduler
-from tmdb_realtime_pg import main  # your existing script
+from tmdb_realtime_pg import main 
 import datetime
 
 scheduler = BlockingScheduler()
